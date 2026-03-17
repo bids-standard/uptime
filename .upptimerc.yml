@@ -3,26 +3,43 @@ owner: bids-standard # Your GitHub organization or username, where this reposito
 repo: uptime # The name of this repository
 
 sites:
+  # Main websites
   - name: Specification
     url: https://bids-specification.readthedocs.io/
   - name: Website
     url: https://bids.neuroimaging.io/
   - name: Validator
     url: https://bids-standard.github.io/bids-validator/
-  - name: BIDS Apps
-    url: https://bids-apps.neuroimaging.io/
-  - name: BIDS Stats Models
-    url: https://bids-standard.github.io/stats-models/
-  - name: BIDS Execution Specification
-    url: https://bids-standard.github.io/execution-spec/
-  - name: BIDS Validator Documentation
+  # Validator
+  - name: Validator Documentation
     url: https://bids-validator.readthedocs.io/
-  - name: PyBIDS Documentation
-    url: https://bids-standard.github.io/pybids/
   - name: Validator (development)
     url: https://bids-standard.github.io/bids-validator/dev/
   - name: Validator (legacy)
     url: https://bids-standard.github.io/legacy-validator/
+  # Stats models
+  - name: BIDS Stats Models
+    url: https://bids-standard.github.io/stats-models/
+  - name: BIDS Stats Models Zoo
+    url: https://bids-standard.github.io/model-zoo/
+  # Other tools
+  - name: Awesome BIDS
+    url: https://bids-standard.github.io/awesome-bids/
+  - name: BIDS schema tools documentation
+    url: https://bidsschematools.readthedocs.io/
+  - name: PyBIDS Documentation
+    url: https://bids-standard.github.io/pybids/
+  - name: PyBIDS-reports Documentation
+    url: https://pybids-reports.readthedocs.io/
+  - name: Pybv Documentation
+    url: https://pybv.readthedocs.io/
+  - name: bids-matlab Documentation
+    url: https://bids-matlab.readthedocs.io/
+  # Outdated
+  - name: BIDS Apps
+    url: https://bids-apps.neuroimaging.io/
+  - name: BIDS Execution Specification
+    url: https://bids-standard.github.io/execution-spec/
 
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
